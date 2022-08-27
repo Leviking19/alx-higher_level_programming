@@ -1,4 +1,3 @@
-able file 10 lines (9 sloc) 332 Bytes
 #!/usr/bin/python3
 def print_matrix_integer(matrix=[[]]):
     """Print a matrix of integers."""

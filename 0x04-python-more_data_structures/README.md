@@ -14,6 +14,7 @@ Write a function that computes the square value of all integers of a matrix.
 * Initial matrix should not be modified
 * You are not allowed to import any module
 * You are allowed to use regular loops, `map`, etc.
+
 **Solution:** [0-square_matrix_simple.py](./0-square_matrix_simple.py)
 
 

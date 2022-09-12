@@ -15,7 +15,11 @@ def safe_function(fct, *args):
     """
     try:
         result = fct(*args)
-        return (result)
-    except (TypeError, ValueError):
-        print("Exception: {}".format(sys.exc_info()[1]), file=sys.stderr)
-        return (None)
+    except ZeroDivisionError:
+        result = None
+        sys.stderr.write("Exception: division by zero\n")
+    except IndexError:
+        result = None
+        sys.stderr.write("Exception: list index out of range\n")
+
+    return result
